@@ -62,8 +62,6 @@
           <el-button v-if="scope.row.status == 0" type="danger" size="mini" @click="lock(scope.row.id, 1)">取消锁定</el-button>
         </template>
       </el-table-column>
-
-
     </el-table>
 
     <!-- 分页组件 -->
